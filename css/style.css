@@ -1,0 +1,1087 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Animate {
+  animation-name: Appear ;
+  animation-delay: none;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: once;
+  animation-timing-function: ease-out;
+}
+
+/* HEADER */
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.2));
+  z-index: 100;
+}
+
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar > a {
+  align-self: center;
+  display: block;
+  width: 70%;
+}
+
+.headerlogo {
+  display: block;
+  width: 14%; 
+  height: auto;
+  margin-left: 10%;
+  float: left; 
+}
+
+nav > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0% 15%;
+}
+
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #6a6a6a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #414141;
+  -moz-text-decoration-color: #414141;
+}
+
+/* HOME */
+
+.imagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.buttoncontainer {
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.footerimagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
+}
+
+
+.groupwalk {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.group {
+  max-width: 100%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.moreinfo{
+  background-color: #FF4C9A;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.coloroverlay {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  /* width: 100%;
+  height: 100%; */
+  background-color: #FF4C9A;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Homeoverlay-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  right: 21%;
+  transform: translate(-50%, -50%);
+  color: rgb(32, 32, 32);
+  font-size: 115%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550%;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+ 
+}
+
+.introduction > h2 {
+  color: #FF4C9A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 580%;
+  display: flex;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 15%;
+  margin-top: 2%;
+  /*text-align: justify;*/
+}
+
+.heading {
+  color: #000000;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+p {
+  color: #414141;
+  font-family: "europa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 110%;
+  display: flex;
+}
+
+.rowbody{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.left {
+  margin-left: 15%;
+}
+
+.textcontainer{
+  display: inline-block;
+  flex-grow: 3;
+  width: 50%;
+}
+
+.pleft {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.bodyimagecontainer{
+  flex-grow: 1;
+  display: inline-block;
+}
+
+.depressionbox{
+  /* margin-left: 5.5%; */
+  width: 50%;
+  /* margin-right: 5.5%; */
+}
+
+.depression {
+  max-width: 1513px;
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  margin-left: 15%;
+  width: 70%;
+  padding: 1%;
+  /*background-color: rgb(250, 250, 239);*/
+  padding: auto;
+}
+
+.right {
+  margin-left: 50%;
+}
+
+.pright {
+  text-align: left;
+}
+
+.statistic {
+  max-width: 2769px;
+  width: 100%;
+  height: auto;
+}
+
+.statisticbox{
+  margin-left: 5%;
+  width: 39%;
+  margin-right: 5%;
+}
+
+#encourage {
+  color: #3595B7;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+/* ABOUT */
+
+.womanthinking {
+  width: 70%;
+  margin-left: 15%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.Aboutoverlay-text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+}
+
+.sharingbox{
+  margin-left: 5%;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.sharing {
+  max-width: 2538px;
+  width: 100%;
+  height: auto;
+}
+
+.pmiddle {
+  text-align: center;
+}
+
+.smallimagecontainer {
+  width: 27%;
+}
+
+.doublerow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.imagecollectioncontainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.typing {
+  width: 100%;
+  max-width: 612px;
+  height: auto;
+  display: block;
+  border-radius: 90px;
+}
+
+.reading {
+  width: 100%;
+  max-width: 612px;
+  height: auto;
+  display: block;
+  border-radius: 90px;
+}
+
+.therapy {
+  width: 100%;
+  max-width: 612px;
+  height: auto;
+  display: block;
+  border-radius: 90px;
+}
+
+.community {
+  max-width: 2270px;
+  width: 100%;
+  height: auto;
+}
+
+.communitybox{
+  margin-left: 5%;
+  width: 33%;
+  margin-right: 5%;
+}
+
+.bottomspace {
+  margin-bottom: 5%;
+}
+
+/* EVENT */
+
+.grouptalk {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.Eventoverlay-text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+}
+
+.invitation {
+  top: 50%;
+  left: 65%;
+  color: white;
+  font-size: 150%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: column;
+}
+
+.smallticketcontainer {
+  width: 45%;
+  margin-top: 3%;
+  cursor: pointer;
+  animation-name: scaleTicketButton;
+  animation-delay: none;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.ticket {
+  width: 100%;
+  max-width: 1267px;
+  height: auto;
+  display: block;
+}
+
+.Eventinvitation /* For media query */ { 
+  display: none;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #414141;
+  font-size: 140%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: column;
+  text-align: center;
+}
+
+.smallticketcontainer2 {
+  width: 30%;
+  padding-top: 4%;
+  margin: 0;
+}
+
+.peoplebox{
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.people {
+  max-width: 1956px;
+  width: 100%;
+  height: auto;
+}
+
+.day1 {
+  margin-top: 1%;
+}
+
+.connection {
+  max-width: 1622px;
+  width: 100%;
+  height: auto;
+}
+
+.connectionbox {
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.day2 {
+  margin-top: 2%;
+}
+
+.communicationbox{
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.communication {
+  max-width: 1956px;
+  width: 100%;
+  height: auto;
+}
+
+.day3 {
+  margin-bottom: 5%;
+}
+
+/* MERCH */
+
+.clothes {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.Merchoverlay-text {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+}
+
+.itemcontainer {
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.itemcollectioncontainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tshirt {
+  width: 100%;
+  max-width: 1188px;
+  height: auto;
+  display: block;
+}
+
+.merchcontainer {
+  width: 25%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+.merchcontainer:hover {
+  transform: scale(90%);
+}
+
+.hat {
+  width: 100%;
+  max-width: 971px;
+  height: auto;
+  display: block;
+}
+
+.sticker {
+  width: 100%;
+  max-width: 678px;
+  height: auto;
+  display: block;
+}
+
+.buymerchcontainer {
+  flex-grow: 3;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.marketing {
+  color: #414141;
+  font-family: "europa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 150%;
+  text-align: left;
+  display: flex;
+}
+
+
+/* CONTACT */
+
+.jasmineflower {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.Contactoverlay-text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1.5%;
+  margin-bottom: 3%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3cadd3;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+  color: white;
+  padding: 1.5% 3%;
+  border: none;
+  border-radius: 50px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #47b85e;
+}
+
+.contactformcontainer {
+  border-radius: 5px;
+  background-color: #474747;
+  padding: 4%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+  font-family: "bigcity-grotesque-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+}
+
+/* FOOTER */
+
+.footer {
+  background: white;
+  padding: 3% 0;
+}
+
+.footercontainer {
+  max-width: 1170px;
+  /*background-color: rgb(153, 216, 153);*/
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerlogo {
+  display: block;
+  width: 7%; 
+  margin-left: 8%;
+  height: auto;
+  float: left;
+}
+
+hr {
+  display: block;
+  border: 0;
+  margin: 10px 0;
+  background: #ffffff;
+  height: 0.5px;
+  width: 75%;
+  margin-top: 4%;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-menu {
+  width: 25%;
+  padding: 0 2%;
+  line-height: 2;
+}
+
+.footer-menu > h3 {
+  color: rgb(78, 78, 78);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 140%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.footer-menu > a > h3 {
+  color: rgb(78, 78, 78);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 140%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.removeunderline {
+  text-decoration: none;
+}
+
+.footer-menu > ul > li {
+  color: rgb(110, 110, 110);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 105%;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+.footer-menu > ul > li:hover {
+  text-decoration: underline;
+  text-decoration-color: #7e7e7e;
+  -moz-text-decoration-color: none;
+}
+
+.footer-menu > ul > li > a {
+  color: rgb(118, 118, 118);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 100%;
+  text-decoration: none;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+}
+
+.footer-menu > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #3b3b3b;
+  -moz-text-decoration-color: #3b3b3b;
+}
+
+.footer-menu > .social-logo > a {
+  display: inline-block;
+  height: 10%;
+  width: 12%;
+  color: rgb(49, 49, 49);
+  margin: 0 5% 5% 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 180%;
+  margin-top: 3%;
+}
+
+.copyright > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 80%;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 8%;
+  color: rgb(67, 67, 67);
+}
+
+/* KEYFRAMES */
+
+@keyframes scaleTicketButton {
+  from {
+    width: 45%;
+}
+  to {
+  transform: scale(70%);
+  }
+}
+
+@keyframes scaleTicketButton2 {
+  from {
+    width: 50%;
+}
+  to {
+  transform: scale(60%);
+  }
+}
+
+@keyframes scaleTicketButton3 {
+  from {
+    width: 70%;
+}
+  to {
+  transform: scale(80%);
+  }
+}
+
+@keyframes Appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 960px) {
+  .invitation {
+    font-size: 105%;
+  }
+  
+  .smallticketcontainer {
+    width: 40%;
+  }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 350%;
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  nav > ul {
+    height: 120px;
+    flex-direction: column;
+    text-align: center;
+  } 
+
+  nav > ul > li > a {
+    font-size: 130%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+  }
+
+  .headerlogo {
+    width: 20%; 
+    height: auto;
+    margin-left: 55%;
+    float: center; 
+  }
+
+  .contactformcontainer {
+    width: 70%;
+  }
+  
+
+}
+
+@media (max-width: 850px) {
+  .footer-menu {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  
+  .headerlogo {
+    width: 25%; 
+    height: auto;
+    margin-left: 55%;
+    float: center; 
+  }
+  
+  .Homeoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Aboutoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Eventoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .invitation {
+    display: none;
+  }
+
+  .Eventinvitation { 
+    display: block;
+    font-size: 150%;
+    text-align: left;
+  }
+  
+  .smallticketcontainer2 {
+    width: 50%;
+    padding-top: 5%;
+    animation-name: scaleTicketButton2;
+    animation-delay: none;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+  }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Contactoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  
+  .introduction > h2 {
+    font-size: 150%;
+    }
+
+  .heading {
+    font-size: 1.5rem;
+    }
+
+  p {
+    font-size: 130%;
+    }
+  
+  .footer-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-menu > .social-logo > a {
+    margin: 0;
+  }
+
+  .footerlogo {
+    display: none;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .Homeoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 215%;
+    text-align: center;
+  }
+
+  .Aboutoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 215%;
+    text-align: center;
+  }
+
+  .Eventoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 215%;
+    text-align: center;
+  }
+
+  .Eventinvitation { 
+    font-size: 140%;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .smallticketcontainer2 {
+    width: 70%;
+    margin: auto;
+    animation-name: scaleTicketButton3;
+    animation-delay: none;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+  }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .marketing {
+    font-size: 130%;
+  }
+
+  .Contactoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .rowbody{
+    flex-direction: column;
+  }
+
+  .rowbody.reverse{
+    flex-direction: column-reverse;
+  }
+
+  .textcontainer{
+    width: 100%;
+  }
+
+  .bodyimagecontainer{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 7%;
+  }
+
+  .depressionbox{
+    width: 70%;
+    margin-left: auto;
+  }
+
+  .contactformcontainer {
+    border-radius: 0;
+    width: 100%;
+    font-size: 100%;
+  }
+
+  input[type=submit] {
+    font-size: 80%;
+  }
+}
