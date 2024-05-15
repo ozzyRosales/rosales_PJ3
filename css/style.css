@@ -127,6 +127,10 @@ nav > ul > li > a:hover {
   border: none; 
 }
 
+.HeroEventIMG {
+  width: 100%;
+}
+
 .group {
   max-width: 100%;
   height: auto;
