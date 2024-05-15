@@ -96,10 +96,16 @@ nav > ul > li > a:hover {
   overflow: hidden;
   text-decoration: none;
 }
-
-.buttoncontainer {
+.imageEVENTcontainer {
+  position: relative;
   width: 100%;
   max-width: 100%; 
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.buttoncontainer {
+  width: 150%;
   overflow: hidden;
   position: relative;
   text-decoration: none;
@@ -183,24 +189,57 @@ nav > ul > li > a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: bold;
-  font-size: 580%;
+  font-size: 250%;
   display: flex;
   text-align: center;
   margin-left: 30%;
-  margin-right: 15%;
+  margin-right: 30%;
   margin-top: 2%;
   /*text-align: justify;*/
 }
 
-.heading {
-  color: #000000;
-  font-family: "Poppins", serif;
+.AboutHeading {
+  color: #FF4C9A;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  text-align: center;
   font-size: 2rem;
   margin-top: 4%;
   margin-bottom: 3%;
+}
+
+
+.heading {
+  color: #FF4C9A;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4%;
+  margin-bottom: -4%;
+}
+
+.SUBheading {
+  color: #fa76af;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: -6%;
+}
+
+.Time{
+  color: #f988b9;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 p {
@@ -224,8 +263,9 @@ p {
 }
 
 .textcontainer{
+  margin-top: -2%;
   display: inline-block;
-  flex-grow: 3;
+  flex-grow: 1;
   width: 50%;
 }
 
@@ -287,6 +327,14 @@ p {
 
 /* ABOUT */
 
+/* #scrollButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
 .womanthinking {
   width: 70%;
   margin-left: 15%;
@@ -376,19 +424,31 @@ p {
 }
 
 .communitybox{
-  margin-left: 5%;
-  width: 33%;
-  margin-right: 5%;
+  width: 45%;
+  margin-top: -36%;
+  margin-left: -2%;
 }
+.communityboxTwo{
+  width: 15%;
+  /* margin-top: 5%; */
+  margin-right: 40%;
 
+  margin-top: 5%;
+  display: inline-block;
+
+}
 .bottomspace {
   margin-bottom: 5%;
 }
 
 /* EVENT */
 
+.imagecollectioncontainer{
+  max-width: 1170px;
+}
+
 .grouptalk {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   border: none; 
@@ -439,7 +499,7 @@ p {
   display: block;
 }
 
-.Eventinvitation /* For media query */ { 
+.Eventinvitation { 
   display: none;
   margin-top: 1%;
   margin-left: 15%;
@@ -542,6 +602,12 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
 }
+.ButtonContainer{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .tshirt {
   width: 100%;
@@ -551,7 +617,18 @@ p {
 }
 
 .merchcontainer {
-  width: 25%;
+  width: 33%;
+  padding-left: .5%;
+  padding-right: .5%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+.ATCcontainer {
+  width: 40%;
   padding-left: 0.5%;
   padding-right: 0.5%;
   transition-property: transform;
@@ -560,6 +637,7 @@ p {
   transition-delay: none;
   cursor: pointer;
 }
+
 
 .merchcontainer:hover {
   transform: scale(90%);
@@ -597,9 +675,6 @@ p {
   display: flex;
 }
 
-
-/* CONTACT */
-
 .jasmineflower {
   max-width: 100%;
   height: auto;
@@ -607,6 +682,8 @@ p {
   border: none; 
 }
 
+
+/* Contact */
 .Contactoverlay-text {
   position: absolute;
   top: 60%;
@@ -614,7 +691,7 @@ p {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 350%;
-  font-family: "finalsix", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: left;
@@ -633,8 +710,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #3cadd3;
-  font-family: "finalsix", sans-serif;
+  background-color: #FF4C9A;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 100%;
@@ -655,12 +732,12 @@ input[type=submit]:hover {
 
 .contactformcontainer {
   border-radius: 5px;
-  background-color: #474747;
+  background-color: #f2f2f2;
   padding: 4%;
   width: 50%;
   margin: auto;
   margin-bottom: 5%;
-  font-family: "bigcity-grotesque-pro", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 120%;
@@ -669,13 +746,12 @@ input[type=submit]:hover {
 /* FOOTER */
 
 .footer {
-  background: white;
-  padding: 3% 0;
+  background: #FFEF66;
+  padding: 3% ;
 }
 
 .footercontainer {
   max-width: 1170px;
-  /*background-color: rgb(153, 216, 153);*/
   margin: auto;
 }
 
@@ -684,15 +760,15 @@ input[type=submit]:hover {
   flex-wrap: wrap;
 }
 
-.footerlogo {
+/* .footerlogo {
   display: block;
   width: 7%; 
   margin-left: 8%;
   height: auto;
   float: left;
-}
+} */
 
-hr {
+/* hr {
   display: block;
   border: 0;
   margin: 10px 0;
@@ -700,7 +776,7 @@ hr {
   height: 0.5px;
   width: 75%;
   margin-top: 4%;
-}
+} */
 
 ul {
   list-style: none;
@@ -713,7 +789,7 @@ ul {
 }
 
 .footer-menu > h3 {
-  color: rgb(78, 78, 78);
+  /* color: rgb(78, 78, 78); */
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -723,7 +799,7 @@ ul {
 }
 
 .footer-menu > a > h3 {
-  color: rgb(78, 78, 78);
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -737,12 +813,12 @@ ul {
 }
 
 .footer-menu > ul > li {
-  color: rgb(110, 110, 110);
+  /* color: rgb(110, 110, 110); */
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 105%;
-  transition-property: text-decoration;
+  /* transition-property: text-decoration; none: */
   transition-duration: 1s;
   transition-timing-function: ease-out;
   transition-delay: none;
@@ -751,25 +827,25 @@ ul {
 
 .footer-menu > ul > li:hover {
   text-decoration: underline;
-  text-decoration-color: #7e7e7e;
-  -moz-text-decoration-color: none;
+  text-decoration-color: black;
+  -moz-text-decoration-color: black;
 }
 
 .footer-menu > ul > li > a {
-  color: rgb(118, 118, 118);
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 100%;
   text-decoration: none;
-  transition-property: text-decoration;
+  /* transition-property: text-decoration; */
   transition-duration: 1s;
   transition-timing-function: ease-out;
   transition-delay: none;
 }
 
 .footer-menu > ul > li > a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #3b3b3b;
   -moz-text-decoration-color: #3b3b3b;
 }
@@ -965,9 +1041,9 @@ ul {
 
 @media (max-width: 620px) {
   
-  .introduction > h2 {
-    font-size: 150%;
-    }
+  /* .introduction > h2 {
+    font-size: 20%;
+    } */
 
   .heading {
     font-size: 1.5rem;

@@ -1,0 +1,4 @@
+document.getElementById("scrollButton").addEventListener("click", function() {
+    // Scroll smoothly to a specific element
+    document.getElementById("DAY1INFO").scrollIntoView({ behavior: "smooth" });
+});
