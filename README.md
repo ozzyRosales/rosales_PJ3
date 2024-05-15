@@ -25,5 +25,12 @@ Fonts used
 https://drive.google.com/file/d/1ytoL08u0Fm3RnhZKgqIFsGStIMVUr0vJ/view?usp=sharing
 
 # Acknowledgements
+Anna Pham (page layout)
+Adobe Stock IMG
+<a href="https://www.crlaf.org/">CA Rural Legal Assistance</a>
+<a href="https://www.cafoodbanks.org/">CA Association of Food Banks</a>
+<a href="https://boxedwaterisbetter.com/">Boxed Water</a>
+<a href="https://www.cde.ca.gov/">CA Departmnet of EDU</a>
+<a href="https://www.calstate.edu/">The CA State University</a>
 
 
